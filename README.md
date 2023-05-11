@@ -34,7 +34,7 @@ It will ask for the directory name (symlinked in the previous step)
 
 ## Outputs
 
-The workflow will generate all the breseq outputs in a directory called ```[symlinked_dir_name]_results```.  Contained within this result folder will be a directory called ```breseq_results``` where you will find all the breseq main result ```html``` and ```csv``` files as well as the ```concatenated_results.csv```.
+The workflow will generate all the breseq outputs in a directory called ```[symlinked_dir_name]_results```.  Also contained within this result folder will be a directory called ```breseq_results``` where you will find all the breseq main result ```html``` and ```csv``` files as well as the ```concatenated_results.csv```.
 
 [breseq]: <https://barricklab.org/twiki/pub/Lab/ToolsBacterialGenomeResequencing/documentation/>
 [genome]: <https://www.ncbi.nlm.nih.gov/nuccore/MN908947>
