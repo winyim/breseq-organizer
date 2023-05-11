@@ -22,7 +22,7 @@ conda activate breseq
 ## Usage
 Move into downloaded git repo folder
 ```bash
-cd breseq-output-organization
+cd breseq-organizer
 ```
 Create a symlink (a shortcut) to where the raw Illumina paired-end fastq files are stored.
 ```bash
