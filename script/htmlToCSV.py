@@ -22,7 +22,7 @@ for dirpath, dirs, files in os.walk((os.path.normpath(user_input)), topdown=Fals
             totalCopyPath = os.path.join(dirpath, parent + '.html') 
             shutil.copy(totalCopyPath,path)
 
-os.chdir(path)
+os.chdir(user_input)
 
 for file in glob.glob("*.html"):
     df = pd.read_html(file)
