@@ -14,6 +14,7 @@ conda activate breseq
 ```
   Note: if ```conda``` is not installing your packages, ```mamba``` can be used
   ```bash
+  #skip this if previous step worked
   conda install -c conda-forge mamba
   mamba create -c bioconda -c anaconda -n breseq breseq snakemake pandas lxml 
   conda activate breseq
