@@ -26,7 +26,7 @@ Create a symlink (a shortcut) to where the raw Illumina paired-end fastq files a
 ```bash
 ln -s [directory_to_fastqs]
 ```
-Run snakemake workflow
+Run snakemake workflow (number of cores can be set based on your system)
 ```bash
 snakemake --cores 4
 ```
