@@ -1,6 +1,6 @@
 # breseq-organizer
 
-This Snakemake workflow is intended for calling variants with [breseq] against severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) reference [genome] for Illumina pair-end sequence data.  This workflow will then use a custom python script to take all main results pages (index.html) files and rename them to appropriate sample names. After which they will be moved to a new folder and concantenated to a single csv file with sample names attached.  This concatentated data can be used for subsequent analyses of your choosing. 
+This Snakemake workflow is intended for calling variants with [breseq] against severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) reference [genome] for Illumina paired-end sequencing data.  This workflow will then use a custom python script to take all main results pages (index.html) files and rename them to appropriate sample names. After which they will be moved to a new folder and concantenated to a single csv file with sample names attached.  This concatentated data can be used for subsequent analyses of your choosing. 
 
 ## Setup/Installation
 1. Clone github repo
