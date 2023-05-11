@@ -5,7 +5,7 @@ This Snakemake workflow is intended for calling variants with [breseq] against s
 ## Setup/Installation
 1. Clone github repo
 ```bash
-git clone https://github.com/winyim/breseq-output-organization
+git clone https://github.com/winyim/breseq-organizer
 ```
 2. Create conda environment and install packages
 ```bash
