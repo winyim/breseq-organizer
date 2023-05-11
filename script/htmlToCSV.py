@@ -10,9 +10,8 @@ user_input = sys.argv[1]
 output = sys.argv[2]
 directory="breseq_results"
 path=os.path.join(user_input,output, directory)
-os.mkdir(path)
 
-for dirpath, dirs, files in os.walk((os.path.normpath(user_input)), topdown=False):
+for dirpath, dirs, files in os.walk((os.path.normpath(output)), topdown=False):
     for name in files:
         if name.endswith('index.html'):
             parent = os.path.split(os.path.split(dirpath)[0])[1]
@@ -22,7 +21,7 @@ for dirpath, dirs, files in os.walk((os.path.normpath(user_input)), topdown=Fals
             totalCopyPath = os.path.join(dirpath, parent + '.html') 
             shutil.copy(totalCopyPath,path)
 
-os.chdir(user_input)
+os.chdir(path)
 
 for file in glob.glob("*.html"):
     df = pd.read_html(file)
