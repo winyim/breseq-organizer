@@ -16,6 +16,7 @@ conda activate breseq
   ```bash
   conda install -c conda-forge mamba
   mamba create -c bioconda -c anaconda -n breseq breseq snakemake pandas lxml 
+  conda activate breseq
   ```
 ## Usage
 Move into downloaded git repo folder
